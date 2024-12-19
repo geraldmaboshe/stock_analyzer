@@ -1,0 +1,14 @@
+scrape_site:
+  description: >-
+    fetch the contents of {url} in markdown format
+  expected_output: >-
+    the contents of a website in markdown
+  agent: >-
+    web_scraper
+analyze_stocks:
+  description: >-
+    Analyze the latest stock market trends and provide recommendations based on the data.
+  expected_output: >-
+    Summary of stock trends and recommendations for stocks to buy.
+  agent: >-
+    stock_analyzer
